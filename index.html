@@ -1,1 +1,233 @@
-11
+	<!DOCTYPE html>
+	<html lang="ko">
+	<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<title>::키카좋아::</title>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+	    // all_menu on
+	    $('.all_menu_btn.win').click(function(){
+	        $('.all_menu_head').addClass('on');
+	    });
+	    
+	    // all_menu off
+	    $('.all_menu_head .close_btn').click(function(){
+	        $('.all_menu_head').removeClass('on');
+	    });
+	
+	    // mobile_menu on
+	    $('.all_menu_btn.mo').click(function(){
+	        $('.mobile_menu').addClass('on');
+	        $('.bg').fadeIn();
+	    });
+	    
+	    // mobile_menu off
+	    $('.mobile_menu .close_btn').click(function(){
+	        $('.mobile_menu').removeClass('on');
+	        $('.bg').fadeOut();
+	    });
+	    
+	    // mobile_menu off
+	    $('.bg').click(function(){
+	        $('.mobile_menu').removeClass('on');
+	        $('.bg').fadeOut();
+	    });
+	
+	});
+	    
+	</script> 
+	</head>
+	
+	<body>
+	    <div class="header">
+	        <div class="inner">
+	            <div class="logo"><a href="./index.html"><img src="logo.jpg" /></a></div>
+	            <div class="menu_wrap">
+	                <ul class="menu">
+	                    <li>
+	                        <a href="#"><span>강서권</span></a>
+	                        <p class="depth_2">
+								<a href="#">강서구</a>
+								<a href="#">금천구</a>
+								<a href="#">관악구</a>
+								<a href="#">동작구</a>
+								<a href="#">구로구</a>
+								<a href="#">영등포구</a>
+								<a href="#">양천구구</a>
+								<a href="#">마포구</a>
+								<a href="#">은평구</a>
+								<a href="#">서대문구</a>
+	                        </p>
+	                    </li>
+	                    <li>
+	                        <a href="#"><span>강북권</span></a>
+	                        <p class="depth_2">
+	                            <a href="#">강북구</a>
+	                            <a href="#">도봉구</a>
+	                            <a href="#">성북구</a>
+	                            <a href="#">노원구</a>
+	                            <a href="#">동대문구</a>
+	                            <a href="#">중랑구</a>
+	                            <a href="#">성동구</a>
+	                            <a href="#">광진구</a>
+	                        </p>
+	                    </li>
+	                    <li>
+	                        <a href="#"><span>강남권</span></a>
+	                        <p class="depth_2">
+	                            <a href="#">강남구</a>
+	                            <a href="#">서초구</a>
+	                            <a href="#">성파구</a>
+	                            <a href="#">강동구</a>
+	                        </p>
+	                    </li>
+	                    <li>
+	                        <a href="#"><span>도심권</span></a>
+	                        <p class="depth_2">
+	                            <a href="#">종로구</a>
+	                            <a href="#">중구</a>
+	                            <a href="#">용산구</a>
+	                        </p>
+	                    </li>
+	                    <li>
+	                        <a href="./sub5.html">이벤트</a>
+	                        <p class="depth_2">
+	                            <a href="#">진행중인 이벤트</a>
+	                            <a href="#">지난이벤트</a>
+	                        </p>
+	                    </li>
+	                </ul>
+	            </div>
+	            <div class="menu_info">
+	                <div class="all_menu_btn win"></div>
+	                <div class="all_menu_btn mo"></div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="header all_menu_head">
+	        <div class="inner">
+	            <div class="logo"><a href="./index.html"><img src="logo.jpg" /></a></div>
+	            <div class="menu_info">
+	                <div class="menu_ct_01"><a href="https://www.foodpolis.kr/">키즈카페 좋아!!</a></div>
+	                <div class="close_btn"></div>
+	            </div>
+	        </div>
+	        <div class="all_menu_content">
+	            <div class="text_ct">
+	                <dl>
+	                    <dt><a href="#">1:1문의하기</a></dt>
+	                </dl>
+	                <dl>
+	                    <dt><a href="#">업무제휴</a></dt>
+	                </dl>
+	            </div>
+	        </div>
+	        <div class="all_menu_ft">
+	            <p>Copyright(c) DoubleJ System. All rights reserved.</p>
+	        </div>
+	    </div>
+	    <div class="mobile_menu_wrap">
+	        <div class="mobile_menu">
+	            <div class="menu_top">
+	                <div class="logo"><a href="#"><img src="logo.jpg" /></a></div>
+	                <div class="close_btn"></div>
+	            </div>
+	            <div class="menu_bottom">
+	                <div class="menu">
+	                    <dl>
+	                        <dt><a href="#">강서권</a></dt>
+	                        <dd>
+	                            <a href="#">강서구</a>
+								<a href="#">금천구</a>
+								<a href="#">관악구</a>
+								<a href="#">동작구</a>
+								<a href="#">구로구</a>
+								<a href="#">영등포구</a>
+								<a href="#">양천구구</a>
+								<a href="#">마포구</a>
+								<a href="#">은평구</a>
+								<a href="#">서대문구</a>
+	                        </dd>
+	                    </dl>
+	                    <dl>
+	                        <dt><a href="#">강북권</a></dt>
+	                        <dd>
+	                            <a href="#">강북구</a>
+	                            <a href="#">도봉구</a>
+	                            <a href="#">성북구</a>
+	                            <a href="#">노원구</a>
+	                            <a href="#">동대문구</a>
+	                            <a href="#">중랑구</a>
+	                            <a href="#">성동구</a>
+	                            <a href="#">광진구</a>
+	                        </dd>
+	                    </dl>
+	                    <dl>
+	                        <dt><a href="#">강남권</a></dt>
+	                        <dd>
+	                            <a href="#">강남구</a>
+	                            <a href="#">서초구</a>
+	                            <a href="#">성파구</a>
+	                            <a href="#">강동구</a>
+	                        </dd>
+	                    </dl>
+	                    <dl>
+	                        <dt><a href="#">도심권</a></dt>
+	                        <dd>
+	                            <a href="#">종로구</a>
+	                            <a href="#">중구</a>
+	                            <a href="#">용산구</a>
+	                        </dd>
+	                    </dl>
+	                    <dl>
+	                        <dt><a href="#">이벤트</a></dt>
+	                        <dd>
+	                        	<a href="#">진행중인 이벤트</a>
+	                            <a href="#">지난이벤트</a>
+	                        </dd>
+	                    </dl>
+	                </div>
+	                <div class="all_menu_ft">
+	                    <p>Copyright(c) DoubleJ System. All rights reserved.</p>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="bg"></div>
+	    </div>
+	
+	
+	    <div id="container">
+	        <article>
+	            <h2 class="hidden">비주얼영역</h2>
+	            <div class="main_bg">
+	                <div class="main_title">
+	                    <h3>우리동네 키즈카페</h3>
+	                </div>
+	            </div>
+	        </article>
+	        <div id="wrap">
+	            <section>
+	                <h2 class="hidden">콘텐츠영역</h2>
+	                <div id="contents_wrap">
+	                    <div id="contents_box">
+	                        <div class="content">
+	                        </div>
+	                    </div>
+	                </div>
+	
+	            </section>
+	        </div>
+	        <footer>
+	            <h2 class="hidden">푸터영역</h2>
+	            <div class="ft_inner">
+	                <div class="info">
+	                    <p>Copyright(c) DoubleJ System. All rights reserved.</p>
+	                </div>
+	            </div>
+	        </footer>
+	    </div>
+	</body>
+	</html>
